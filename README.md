@@ -34,13 +34,14 @@ Then: (Allowing spicetify to work)
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 ```
-
-> **Before doing anything you should probably read the docs of spicetify to double check if no mistakes are made: https://spicetify.app/docs/getting-started**
-
 Or run the Script provided named spicetify-setup.sh via
 ```bash
 ./spicetify-setup.sh
 ```
+
+> **Before doing anything you should probably read the docs of spicetify to double check if no mistakes are made: https://spicetify.app/docs/getting-started**
+
+
 
 ### Most used Keybinds
 
