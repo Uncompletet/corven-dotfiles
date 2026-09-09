@@ -26,6 +26,7 @@ chmod +x install.sh
 ### Most used Keybinds
 
 > **You can modify these Keybinds via .confg/hypr/hyprland/keybinds.lua
+
 | Keybind                 | Action                    |
 | -----------             | ------------------------- |
 | `Super + T`             | Terminal                  |
