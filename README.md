@@ -23,6 +23,26 @@ chmod +x install.sh
 ```
 > **After the installation finishes log out and log back in.**
 
+### Installing Spicetify
+After installing spotify you might wanna install spicetify and spicetify-cli to use the spicetify theme found inside on .config/spicetify.
+This can be done using this command:
+```bash
+curl -fsSL https://raw.githubusercontent.com/spicetify/cli/main/install.sh | sh
+```
+Then: (Allowing spicetify to work)
+```bash
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+```
+Or run the Script provided named spicetify-setup.sh via
+```bash
+./spicetify-setup.sh
+```
+
+> **Before doing anything you should probably read the docs of spicetify to double check if no mistakes are made: https://spicetify.app/docs/getting-started**
+
+
+
 ### Most used Keybinds
 
 > **You can modify these Keybinds via .confg/hypr/hyprland/keybinds.lua
